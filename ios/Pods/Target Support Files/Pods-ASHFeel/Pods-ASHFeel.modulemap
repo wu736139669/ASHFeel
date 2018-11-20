@@ -1,0 +1,6 @@
+framework module Pods_ASHFeel {
+  umbrella header "Pods-ASHFeel-umbrella.h"
+
+  export *
+  module * { export * }
+}

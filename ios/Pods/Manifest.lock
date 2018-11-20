@@ -1,0 +1,63 @@
+PODS:
+  - Bugly (2.5.0)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - UMCCommon (1.5.3)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMCShare/Social/WeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+
+DEPENDENCIES:
+  - Bugly
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD (= 1.0.0)
+  - UMCShare/Social/QQ
+  - UMCShare/Social/Sina
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - UMCCommon
+    - UMCShare
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+
+PODFILE CHECKSUM: d86a0e1b3f76810c24964aef771db554117f2b50
+
+COCOAPODS: 1.5.3

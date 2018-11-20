@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+platform :ios, '8.0'
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'ASHFeel' do
+    pod 'Masonry'
+    pod 'Bugly'
+    pod 'IQKeyboardManager'
+    pod 'MBProgressHUD' =>’1.0.0’
+
+    #社会化分享
+    pod 'UMCShare/Social/WeChat'
+    pod 'UMCShare/Social/QQ'
+    pod 'UMCShare/Social/Sina'
+    pod 'UMCShare/UI'
+    
+end
